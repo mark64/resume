@@ -1,0 +1,8 @@
+Simple, modern LaTeX resume template, modified from the original at https://www.latextemplates.com/template/wilson-resume-cv
+
+requires XeLaTeX
+$ apt install texlive-xetex
+
+Use the provided script to build your resume after modifying the tex file
+$ ./gencv.sh
+

@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+\input{internal/structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Mark L. Hill} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> 2650 Durant Ave \\ % Address line 1
+\> Christain Rm. 110 \\ % Address line 2
+\> Berkeley, CA 94720 \\ % City, State Zip
+{\bf Email} \> \href{mailto:mark64@berkeley.edu}{mark64@berkeley.edu} % email address
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Mobile Phone} \> \href{tel:+17147880882}{+1 (714) 788 0882} \\ % Mobile phone
+{\bf Linkedin} \> \href{https://www.linkedin.com/in/mark-h-6ab768146}{Mark Hill} \\ % Linkedin
+{\bf Github} \> \href{https://github.com/mark64} {github.com/mark64} \\ % GitHub
+\end{tabbing}}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\tabbedblock{
+\bf{Aug 2017 - } \> Pursuing B.S. in Electrical Engineering \& Computer Science - \textit{University of California, Berkeley} \\[5pt]
+\bf{present} \> Relevant Coursework \\
+\> 2017 F - \href{https://cs61a.org}{CS61A} \textit{Structure and Interpretation of Computer Programs} \\
+\> 2018 S - \href{https://inst.eecs.berkeley.edu/~cs61b/fa17/}{CS61B} \textit{Data Structures}
+\>\+
+}
+
+
+%----------------------------------------------------------------------------------------
+%	OUTSIDE PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\job{Jan 2016 - }{July 2017}
+{Irvine CubeSat}
+{https://www.irvinecubesat.org/}
+{Avionics Team Leader}
+{
+Led a team of 18 in assembling, testing, and documenting Irvine's first CubeSat: IRVINE01 \\
+Used EagleCAD to update the design of an expansion card for connecting solar arrays and propulsion systems \\
+Created a Linux kernel module to control the expansion card and peripherals \\[5pt]
+\textbf{Technologies}: Linux, C, C++, Buildroot, make, git, bash, EagleCAD \\
+\textbf{Github Projects:}
+	\href{https://github.com/mark64/ccardmodule}{Peripherals Kernel Module},
+	\href{https://github.com/mark64/buildroot}{IR01 Root System},
+	\href{https://github.com/irvinecubesat/irvine-01-sw}{IR01 Software}
+}
+
+\tabbedblock{
+\bf{June 2017 - } \> Personal Autonomous Quadcopter \\
+\bf{present} \\[5pt]
+\> Developed drone hardware and software from scratch to learn systems development and \\
+\> control theory \\[5pt]
+\> \textbf{Technologies:} C, C++, make, kbuild, git, bash, EagleCAD \\
+\> \textbf{Github Projects:} \href{https://github.com/mark64/drone}{Drone}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\tabbedblock{
+\bf{Jul 2014 - } \> Columbia Gorge Softworks \\
+\bf{Aug 2016} \> \textit{iOS Software Developer} \\[5pt]
+\> Created mobile medical applications to aid the process of diagnosis and generating visit reports \\[5pt]
+\> \textbf{Technologies:} Xcode, Swift, Objective C
+}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\tabbedblock{
+\bf{Oct 2016} \> Eagle Scout Rank \\[5pt]
+\> Planned, organized, and led a team of 20 in a service project to rebuild and repaint an unsafe \\
+\> wooden handball wall for an elementary school \\[5pt]
+\> \textbf{Technologies:} 100$^{\circ F}$ heat, water, shade
+}
+
+
+%----------------------------------------------------------------------------------------
+
+%\job
+%{Sep 2014}{Aug 2016}
+%{Lehman Brothers, 1234 Mario Park, San Francisco, CA, United States}
+%{http://www.lehmanbrothers.com}
+%{Senior Developer / Technical Team Lead}
+%{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum nec dolor sed sagittis. Cras justo lorem, volutpat mattis lacus vel, consequat aliquam quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.\\
+%\rule{0mm}{5mm}\textbf{Technologies:} Ruby on Rails 2.3, Amazon EC2, NoSQL data stores, memcached, collaborative matching, Facebook Graph API.}
+
+%------------------------------------------------
+
+%\begin{itemize-noindent}
+%\item{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals.)}
+%\item{Managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.}
+%\end{itemize-noindent}
+
+\end{document}
