@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.9.5)  6 SEP 2017 19:22
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2017.9.5)  10 SEP 2017 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -741,6 +741,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 45.
+
+Overfull \hbox (59.24911pt too wide) in paragraph at lines 45--54
+[]$[]$  $[]$ 
+ []
+
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
