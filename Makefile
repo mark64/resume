@@ -6,7 +6,7 @@ resume.pdf: resume.tex internal/output
 internal/output:
 	mkdir -p internal/output
 
-.PHONY: clean
+.PHONY: clean webmirror
 clean:
 	rm internal/output/* resume.pdf
 

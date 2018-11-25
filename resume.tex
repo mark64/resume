@@ -37,7 +37,7 @@
 
 \parbox{0.5\textwidth}{ % First block
 \begin{tabbing} % Enables tabbing
-\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+\hspace{2.5cm} \= \hspace{4cm} \= \kill % Spacing within the block
 {\bf Email} \> \href{mailto:mark64@berkeley.edu}{mark64@berkeley.edu} \\ % email address
 {\bf Mobile Phone} \> \href{tel:+17147880882}{+1 (714) 788 0882} \\ % Mobile phone
 {\bf Github} \> \href{https://github.com/mark64} {github.com/mark64} % GitHub
@@ -45,10 +45,10 @@
 \hfill % Horizontal space between the two blocks
 \parbox{0.5\textwidth}{ % Second block
 \begin{tabbing} % Enables tabbing
-\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
-{\bf OS} \> Linux, FreeBSD, OpenBSD, macOS, Android, iOS \\
-{\bf Languages} \> C, C++, Java, Python, Swift, Makefile \\
-{\bf Tools} \> git, make, vim, bash, Buildroot \\
+\hspace{2.5cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf OS} \> Linux, OpenBSD, iOS \\
+{\bf Languages} \> Rust, C, C++, Python, Java \\
+{\bf Tools} \> docker, git, make, cmake, vim, bash, buildroot
 \end{tabbing}}
 
 
@@ -60,53 +60,20 @@
 
 \tabbedblock{
 \bf{Aug 2017 - } \> Pursuing B.S. in Electrical Engineering \& Computer Science - \textit{University of California, Berkeley} \\[5pt]
-\bf{Dec 2019} \> 3.83 GPA - Relevant Coursework \\
-\> 2017 F - \href{https://cs61a.org}{CS61A} \textit{Structure of Computer Programs} \\
-\> 2018 S - \href{http://datastructur.es}{CS61B} \textit{Data Structures} \\
-\> 2018 S - \href{https://inst.eecs.berkeley.edu/~cs61c/sp18/}{CS61C} \textit{Computer Architecture} \\
-\> 2018 S - \href{http://eecs70.org}{CS70} \textit{Discrete Math and Probability} \\
-\> 2018 S - \href{https://inst.eecs.berkeley.edu/~ee16a/sp18/}{EE16A} \textit{Linear Algebra and Circuits} 
+\bf{Dec 2019} \> 3.92 GPA - Relevant Coursework \\
+\> 2017 F -
+    \href{https://cs61a.org}{CS61A} \textit{Structure of Computer Programs} \\
+\> 2018 S -
+    \href{http://datastructur.es}{CS61B} \textit{Data Structures},
+    \href{https://inst.eecs.berkeley.edu/~cs61c/sp18/}{CS61C} \textit{Computer Architecture},
+    \href{http://eecs70.org}{CS70} \textit{Discrete Math and Probability}, \\
+    \>\hspace{3.3em} \href{https://inst.eecs.berkeley.edu/~ee16a/sp18/}{EE16A} \textit{Linear Algebra and Circuits} \\
+\> 2018 F -
+    \href{https://inst.eecs.berkeley.edu/~cs161/fa18}{CS161} \textit{Computer Security},
+    \href{https://cs162.eecs.berkeley.edu/}{CS162} \textit{Operating Systems and System Programming}, \\
+    \>\hspace{3.3em} \href{https://cs170.org}{CS170} \textit{Efficient Algorithms},
+    \href{https://inst.eecs.berkeley.edu/~ee16b/fa18}{EE16B} \textit{Designing Information Devices and Systems II}
 \>\+
-}
-
-
-%----------------------------------------------------------------------------------------
-%	OUTSIDE PROJECTS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Projects}
-
-\job{Sept 2017 - }{present}
-{Space Technologies at Cal}
-{https://stac.berkeley.edu/projects/project1.html}
-{Electrical and Computer Engineer}
-{
-Designed electrical systems and flight software for a 3U CubeSat \\
-Worked on developing laser communication system and control system for small PCBSats \\[5pt]
-\textbf{Technologies}: Linux, C, C++, GPS, IMU, signal processing, Buildroot, git, bash, EagleCAD
-}
-\job{Jan 2016 - }{July 2017}
-{Irvine CubeSat}
-{https://www.irvinecubesat.org/}
-{Avionics Team Leader}
-{
-Led a team of 18 in assembling, testing, and documenting Irvine's first CubeSat: IRVINE01 \\
-Used EagleCAD to update the design of an expansion card for connecting solar arrays and propulsion systems \\
-Created a Linux kernel module to control the expansion card and peripherals \\[5pt]
-\textbf{Technologies}: Linux, C, C++, Buildroot, make, git, bash, EagleCAD \\
-\textbf{Github Projects:}
-	\href{https://github.com/mark64/ccardmodule}{Peripherals Kernel Module},
-	\href{https://github.com/mark64/buildroot}{IR01 Root System},
-	\href{https://github.com/irvinecubesat/irvine-01-sw}{IR01 Software}
-}
-
-\tabbedblock{
-\bf{June 2017 - } \> Personal Autonomous Quadcopter \\
-\bf{present} \\[5pt]
-\> Developed drone hardware and software from scratch to learn systems development and \\
-\> control theory \\[5pt]
-\> \textbf{Technologies:} C, C++, make, kbuild, git, bash, EagleCAD \\
-\> \textbf{Github Projects:} \href{https://github.com/mark64/drone}{Drone}
 }
 
 
@@ -116,11 +83,55 @@ Created a Linux kernel module to control the expansion card and peripherals \\[5
 
 \section{Employment History}
 
+\job{May 2018 - }{Dec 2018}
+{Astranis}
+{https://astranis.com}
+{Embedded Software Intern}
+{
+Implemented a hardware abstraction layer, Python client, firmware updates, and threading API for satellite microcontrollers. \\
+Wrote testing automation software for EE equipment and satellite operations. \\[5pt]
+\textbf{Technologies}: Linux, C, C++, Rust, Python, FreeRTOS, Docker, LDAP, Protobuf, git
+}
+
+
+%----------------------------------------------------------------------------------------
+%	OUTSIDE PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\job{Sept 2017 - }{July 2018}
+{Computer Science Undergraduate Association (CSUA)}
+{https://csua.berkeley.edu}
+{VP of Technology}
+{
+Setup a GPU cluster donated by Nvidia for use by Berkeley students. \\
+Maintained web, LDAP, email, DNS, and ssh servers. \\[5pt]
+\textbf{Technologies}: Linux, git, bash, docker, python, LDAP
+}
+
+\job{Jan 2016 - }{July 2017}
+{Irvine CubeSat}
+{https://www.irvinecubesat.org/}
+{Avionics Team Leader (Alumni mentor since 2017)}
+{
+Led a team of 18 in assembling, testing, and documenting Irvine's first CubeSat: IRVINE01 \\
+Used EagleCAD to update the design of an expansion card for connecting solar arrays and propulsion systems \\
+Created a Linux kernel module to control the expansion card and peripherals \\[5pt]
+\textbf{Technologies}: Linux, C, C++, Buildroot, kbuild, make, git, bash, EagleCAD \\
+\textbf{Github Projects:}
+	\href{https://github.com/mark64/ccardmodule}{Peripherals Kernel Module},
+	\href{https://github.com/mark64/buildroot}{IR01 Root System},
+	\href{https://github.com/irvinecubesat/irvine-01-sw}{IR01 Software}
+}
+
 \tabbedblock{
-\bf{Jul 2014 - } \> Freelance Work \\
-\bf{Aug 2016} \> \textit{iOS Software Developer} \\[5pt]
-\> Created mobile medical applications to aid the process of diagnosis and generating visit reports \\[5pt]
-\> \textbf{Technologies:} Xcode, Swift, Objective C
+\bf{June 2017 - } \> Personal Project \\
+\bf{present} \> \textit{Quadcopter} \\[5pt]
+\> Developed drone hardware and software from scratch to learn systems development and \\
+\> control theory \\[5pt]
+\> \textbf{Technologies:} C, C++, make, git, bash, EagleCAD \\
+\> \textbf{Github Projects:} \href{https://github.com/mark64/drone}{Drone}
 }
 
 
